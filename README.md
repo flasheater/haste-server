@@ -95,6 +95,10 @@ To use redis storage you must install the redis package in npm
 
 `npm install redis`
 
+and in your package manager of choice. In Ubuntu for example
+
+`sudo apt-get install redis-server`
+
 Once you've done that, your config section should look like:
 
 ``` json
@@ -117,6 +121,10 @@ All of which are optional except `type` with very logical default values.
 To use memcached storage you must install the `memcache` package via npm
 
 `npm install memcache`
+
+and in your package manager of choice. In Ubuntu for example
+
+`sudo apt-get install memcached`
 
 Once you've done that, your config section should look like:
 
